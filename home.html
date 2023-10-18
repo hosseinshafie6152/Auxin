@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="title icon" type="image/jpg" href="../Auxin/images/logo.jpg">
+    <title>Auxin شرکت تولیدی کودهای ارگانیک برای گیاهان مختلف</title>
+    <link rel="stylesheet" href="../Auxin/css/home.css">
+    <link rel="stylesheet" href="../Auxin/css/animation.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<body>
+    <div class="introduction">
+        <h3 class="title">شرکت <span>Auxin </span>شرکت تولید کننده کود های گیاهی بر پایه طبیعت</h3>
+    </div>
+    <div class="navigation">
+        <div class="open">
+            <span class="material-symbols-outlined" onclick="menuicon()">
+                menu
+            </span>
+        </div>
+        <a href="" class="logo"><img src="../Auxin/images/logo.jpg" alt="logo" class="logo-item"></a>
+        <h3 class="text">شرکت <span>Auxin</span> تولید کننده کود های تقویتی</h3>
+        <nav class="navigation-bar">
+            <ul class="menu">
+                <li class="item"><a href="" id="home">خانه</a></li>
+                <li class="item"><a href="#products" >محصولات</a></li>
+                <li class="item"><a href="" id="education">آموزش نگهداری از گل</a></li>
+                <li class="item"><a href="#information" id="about-me">معرفی شرکت</a></li>
+                <li class="item"><a href="" id="login">ورود/ثبت نام</a></li>
+                <li class="item"><a href="" id="buy">خرید</a></li>
+            </ul>
+            <form class="search">
+                <input type="text">
+                <span class="material-symbols-outlined search-icon">
+                    search
+                </span>
+            </form>
+        </nav>
+        <div class="basket-shopping">
+            <button class="basket" role="button" id="basket" title="سبد خرید">
+                <span class="material-symbols-outlined icon">
+                shopping_cart
+                </span>
+                <span class="label" id="label"></span>
+            </button>
+        </div>
+        <div class="sh">
+            <div class="shop-page-off">
+                <p class="h1">سبد خرید شما خالی است!</p>
+                <p class="h3">برای خرید محصولات به قسمت محصولات مراجعه فرمایید و خرید خود را انتخاب کنید.</p>
+            </div>
+        <div class="shop-page">
+            <div class="header">
+                <span id="number-goods" class="number-goods"></span>
+                <span>کالا</span>
+            </div>
+           
+            <div class="footer">
+                <div class="sum-price">
+                    <span>مبلغ قابل پرداخت:</span>
+                    <span id="sum-price"></span>
+                </div>
+                <a href="" class="btn-product">ثبت سفارش</a>
+            </div>
+        </div>
+        </div>
+    </div>
+    
+
+    <div class="slide-bar">
+        <div class="slides">
+            <div class="item active" id="slide1">
+                <img src="../Auxin/images/slide1.jpg" alt="slide1">
+                <span>مراقب مادرمان زمین باشیم.</span>
+            </div>
+            <div class="item" id="slide2">
+                <img src="../Auxin/images/slide2.png" alt="slide2">
+                <span>کودهای ارگانیک تقویتی گل و گیاه</span>
+            </div>
+        </div>
+        <div class="buttons">
+            <span></span>
+        </div>
+    </div>
+    <div class="banner">
+        <img src="../Auxin/images/logo.jpg" alt="logo" class="logo">
+        <p class="text-h1"><span>Auxin</span>تولید کننده کودهای تقویتی و مصلح خاک بر پایه طبیعت</p>
+        <p class="text-h5">با Auxin همیار محیط زیست و دوست دار طبیعت باش.</p>
+        <div class="btns">
+            <a href="" class="login">ثبت نام</a>
+            <a href="" class="record-products">ثبت سفارش</a>
+        </div>
+    </div>
+
+    <div class="products-itroduction" id="products">
+    <div class="represent-product">
+        <div class="right">
+            <img src="../Auxin/images/f1.jpg" alt="product1" id="image">
+        </div>
+        <div class="left">
+            <h3 class="title" id="title">Feron</h3>
+            <p class="text" id="text1">ترکیب ویژه رفع زردی تاج گیاه</p>
+            <p class="text2" id="text2">محصول Feron با فرمولاسیون جدید توسط مهندسان کشاورزی شرکت Auxin تولید گشته است.این محصول برای رفع زردی برگ گیاهان آپارتمانی سفارش می شود.برای خرید محصول آن را به سبد خرید خود اضافه نمایید.</p>
+            <button class="btn" id="add">افزودن به سبد خرید</button>
+        </div>
+    </div>
+    <div class="list">
+        <p>فهرست محصولات</p>
+        <button class="btn" onclick="f1()">محصول <span>Feron</span> (رفع زردی تاج گیاه)</button>
+        <button class="btn" onclick="f2()">محصول <span>Felowerot</span> (رشد ریشه ، شادابی و استحکام گل)</button>
+        <button class="btn" onclick="f3()">محصول <span>Growbo</span> (سطح برگ بیشتر)</button>
+        <button class="btn" onclick="f4()">محصول <span>Halic</span> (مصلح خاک گلدان)</button>
+        <button class="btn" onclick="f5()">محصول <span>Jax</span> (افزایش مقاومت گیاه و براقی برگ گل)</button>
+        <button class="btn" onclick="f6()">محصول <span>Teraf</span> (افزایش ریشه دهی گیاه)</button>
+        <button class="btn" onclick="f7()">محصول <span>Twentry</span> (رشد عمومی گیاه)(محصول ویژه)</button>
+    </div>
+    </div>
+    <div class="information" id="information">
+        <div class="video">
+            <video controls poster="../Auxin/images/products.jpg">
+                <source src="../Auxin/images/Auxin.mp4" type="video/mp4" />
+            </video>
+        </div>
+        <div class="text">
+            <h1>Auxin</h1>
+            <h3>یک شرکت دانش بنیاد با تیمی جوان و غیور</h3>
+            <p>محصولات این شرکت ساخته و پرداخته ذهن مهندسان و جوانانی از همین مرز و بوم است.</p>
+            <hr>
+            <p class="ask">اما چرا Auxin?</p>
+            <p class="answer">ارزان ، با کیفیت ، موثر ، همیار محیط زیست</p>
+        </div>
+    </div>
+    <footer>
+        <div class="main">
+            <div class="row">
+                <div class="control-page">
+                    <h2 class="fast-reach">دسترسی سریع:</h2>
+                    <ul class="menu-footer">
+                        <li class="item"><a href="" id="home">خانه</a></li>
+                        <li class="item"><a href="#products" >محصولات</a></li>
+                        <li class="item"><a href="" id="education">آموزش نگهداری از گل</a></li>
+                        <li class="item"><a href="#information" id="about-me">معرفی شرکت</a></li>
+                        <li class="item"><a href="" id="login">ورود/ثبت نام</a></li>
+                        <li class="item"><a href="" id="buy">خرید</a></li>
+                    </ul>
+                </div>
+                <div class="left">
+                    <span class="logo">Auxin</span>
+                    <h2 class="wrays">راه های ارتباطی:</h2>
+                    <div class="platforms">
+                        telegram
+                        instagram
+                        linked in
+                        facebook
+                    </div>
+                </div>
+            </div>
+            <div class="f-footer">
+                <p>کلیه حقوق برای پدیده رویا محفوظ می‌باشد.©2023</p>
+            </div>
+        </div>
+    </footer>
+    <script src="../Auxin/js/home.js"></script>
+</body>
+</html>

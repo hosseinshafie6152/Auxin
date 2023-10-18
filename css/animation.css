@@ -1,0 +1,25 @@
+@-webkit-keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+}
+@keyframes changeColor {
+    25%{border-color: rgb(85, 146, 227);}
+    25%{border-radius: 30px;}
+    25%{background-color: #9999993b;}
+}
